@@ -1,0 +1,125 @@
+* {
+    transition: all 1s ease;
+}
+
+body {
+    background-color: black !important;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.logo-img {
+    height: 48px;
+}
+
+.logo {
+    top: 25px;
+}
+
+i,
+.menu-list {
+    cursor: pointer;
+}
+
+
+.menu-bar {
+    background-color: black;
+    width: 250px;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    z-index: 99;
+}
+
+.menu-bar-links-lists {
+    height: 300px;
+    overflow: hidden;
+}
+
+.menu-list-group {
+    position: absolute;
+    top: 330px;
+    transition: top 1s ease;
+}
+
+.menu-list {
+    background-color: black !important;
+}
+
+.nav-bar {
+    width: 60px;
+    left: 0px;
+    z-index: 999;
+}
+
+.xmark-menu-icon {
+    display: none;
+}
+
+.meal-card-bg {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    top: 100%;
+    right: 0;
+    left: 0
+}
+
+.meal-name {
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0 25px;
+}
+
+.meal-name-cat {
+    top: 100%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0 25px;
+    /* white-space: nowrap; */
+}
+
+.meal-card {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.meal-card:hover .meal-name {
+    top: 50%;
+}
+
+.meal-card:hover .meal-name-cat {
+    top: 5px !important;
+}
+
+.meal-card:hover .meal-card-bg {
+    top: 0;
+}
+
+main {
+    position: absolute;
+    left: 60px;
+    right: 0;
+    padding: 50px 0;
+}
+
+input {
+    background-color: black;
+    border-bottom: 2px solid whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="submit"] {
+    background-color: black;
+    cursor: default !important;
+    width: fit-content;
+}
